@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<img src="foto10.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 10</div>
+</div>
+
+
+<!-- Kart 11 -->
+<div class="card">
+<div class="info">İsim 11</div>
+<img src="foto11.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 11</div>
+</div>
+
+
+<!-- Kart 12 -->
+<div class="card">
+<div class="info">İsim 12</div>
+<img src="foto12.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 12</div>
+</div>
+
+
+<!-- Kart 13 -->
+<div class="card">
+<div class="info">İsim 13</div>
+<img src="foto13.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 13</div>
+</div>
+
+
+<!-- Kart 14 -->
+<div class="card">
+<div class="info">İsim 14</div>
+<img src="foto14.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 14</div>
+</div>
+
+
+<!-- Kart 15 -->
+<div class="card">
+<div class="info">İsim 15</div>
+<img src="foto15.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 15</div>
+</div>
+
+
+<!-- Kart 16 -->
+<div class="card">
+<div class="info">İsim 16</div>
+<img src="foto16.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 16</div>
+</div>
+
+
+<!-- Kart 17 -->
+<div class="card">
+<div class="info">İsim 17</div>
+<img src="foto17.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 17</div>
+</div>
+
+
+<!-- Kart 18 -->
+<div class="card">
+<div class="info">İsim 18</div>
+<img src="foto18.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 18</div>
+</div>
+
+
+<!-- Kart 19 -->
+<div class="card">
+<div class="info">İsim 19</div>
+<img src="foto19.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 19</div>
+</div>
+
+
+<!-- Kart 20 -->
+<div class="card">
+<div class="info">İsim 20</div>
+<img src="foto20.jpg" alt="Kişi Fotoğrafı">
+<div class="number">0500 000 00 20</div>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
