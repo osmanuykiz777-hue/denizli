@@ -1,208 +1,132 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!doctype html>
+<html ⚡>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>İletişim Listesi</title>
-    <style>
+    <meta charset="utf-8">
+    <title>Sabrina - İzmir</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
+
+    <style amp-custom>
+
         body {
-            font-family: Arial, sans-serif;
-            background: gold;
+            font-family: 'Righteous', cursive;
+            background: #000;
+            color: #fff;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
 
-        h1 {
+        .header {
             text-align: center;
-            margin-bottom: 30px;
+            padding: 25px 0 10px 0;
         }
 
-        .grid {
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header h2 {
+            margin: 0;
+            margin-top: 5px;
+            font-size: 20px;
+            opacity: 0.7;
+            letter-spacing: 1px;
+        }
+
+        .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            padding: 15px;
         }
 
-        .card {
-            background: white;
+        .photo-box {
+            position: relative;
             border-radius: 10px;
-            padding: 10px;
-            text-align: center;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-            display: flex;
-            flex-direction: column;
+            overflow: hidden;
         }
 
-        .info {
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 10px;
+        .photo-box amp-img {
+            border-radius: 10px;
         }
 
-        .card img {
+        /* Fotoğraf üstü WhatsApp ve Ara butonları */
+        .buttons {
+            position: absolute;
+            bottom: 6px;
+            left: 0;
             width: 100%;
-            height: 240px;
-            object-fit: cover;
-            border-radius: 8px;
+            text-align: center;
+            z-index: 10;
         }
 
-        .number {
-            margin-top: 10px;
-            font-size: 14px;
-            font-weight: bold;
-            color: #333;
+        .btn {
+            display: inline-block;
+            background: rgba(0, 153, 255, 0.85);
+            padding: 6px 12px;
+            margin: 2px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #fff;
         }
+
+        .whatsapp-btn {
+            background: rgba(0, 200, 0, 0.85);
+        }
+
     </style>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
+
 <body>
 
-<h1>İletişim Listesi</h1>
-
-<div class="grid">
-
-    <!-- 20 adet kart - kullanıcı fotoğraf isim ve numara ekleyecek -->
-
-    <!-- Kart 1 -->
-    <div class="card">
-        <div class="info">İsim 1</div>
-        <img src="foto1.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 01</div>
+    <div class="header">
+        <h1>Sabrina</h1>
+        <h2>İzmir</h2>
     </div>
 
-    <!-- Kart 2 -->
-    <div class="card">
-        <div class="info">İsim 2</div>
-        <img src="foto2.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 02</div>
-    </div>
+    <div class="gallery">
 
-    <!-- Kart 3 -->
-    <div class="card">
-        <div class="info">İsim 3</div>
-        <img src="foto3.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 03</div>
-    </div>
+        <!-- FOTOĞRAF 1 -->
+        <div class="photo-box">
+            <amp-img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png" width="300" height="400" layout="responsive"></amp-img>
+            <div class="buttons">
+                <a class="btn whatsapp-btn" href="https://wa.me/905000000000" target="_blank">WhatsApp</a>
+                <a class="btn" href="tel:05000000000">Ara</a>
+            </div>
+        </div>
 
-    <!-- Kart 4 -->
-    <div class="card">
-        <div class="info">İsim 4</div>
-        <img src="foto4.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 04</div>
-    </div>
+        <!-- FOTOĞRAF 2 -->
+        <div class="photo-box">
+            <amp-img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png" width="300" height="400" layout="responsive"></amp-img>
+            <div class="buttons">
+                <a class="btn whatsapp-btn" href="https://wa.me/905000000000" target="_blank">WhatsApp</a>
+                <a class="btn" href="tel:05000000000">Ara</a>
+            </div>
+        </div>
 
-    <!-- Kart 5 -->
-    <div class="card">
-        <div class="info">İsim 5</div>
-        <img src="foto5.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 05</div>
-    </div>
+        <!-- FOTOĞRAF 3 -->
+        <div class="photo-box">
+            <amp-img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png" width="300" height="400" layout="responsive"></amp-img>
+            <div class="buttons">
+                <a class="btn whatsapp-btn" href="https://wa.me/905000000000" target="_blank">WhatsApp</a>
+                <a class="btn" href="tel:05000000000">Ara</a>
+            </div>
+        </div>
 
-    <!-- Kart 6 -->
-    <div class="card">
-        <div class="info">İsim 6</div>
-        <img src="foto6.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 06</div>
-    </div>
+        <!-- FOTOĞRAF 4 -->
+        <div class="photo-box">
+            <amp-img src="https://i0-wp-com.cdn.ampproject.org/i/s/i0.wp.com/hedonebiz.site/uploads/burcu.png" width="300" height="400" layout="responsive"></amp-img>
+            <div class="buttons">
+                <a class="btn whatsapp-btn" href="https://wa.me/905000000000" target="_blank">WhatsApp</a>
+                <a class="btn" href="tel:05000000000">Ara</a>
+            </div>
+        </div>
 
-    <!-- Kart 7 -->
-    <div class="card">
-        <div class="info">İsim 7</div>
-        <img src="foto7.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 07</div>
     </div>
-
-    <!-- Kart 8 -->
-    <div class="card">
-        <div class="info">İsim 8</div>
-        <img src="foto8.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 08</div>
-    </div>
-
-    <!-- Kart 9 -->
-    <div class="card">
-        <div class="info">İsim 9</div>
-        <img src="foto9.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 09</div>
-    </div>
-
-    <!-- Kart 10 -->
-    <div class="card">
-        <div class="info">İsim 10</div>
-        <img src="foto10.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 10</div>
-    </div>
-
-    <!-- Kart 11 -->
-    <div class="card">
-        <div class="info">İsim 11</div>
-        <img src="foto11.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 11</div>
-    </div>
-
-    <!-- Kart 12 -->
-    <div class="card">
-        <div class="info">İsim 12</div>
-        <img src="foto12.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 12</div>
-    </div>
-
-    <!-- Kart 13 -->
-    <div class="card">
-        <div class="info">İsim 13</div>
-        <img src="foto13.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 13</div>
-    </div>
-
-    <!-- Kart 14 -->
-    <div class="card">
-        <div class="info">İsim 14</div>
-        <img src="foto14.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 14</div>
-    </div>
-
-    <!-- Kart 15 -->
-    <div class="card">
-        <div class="info">İsim 15</div>
-        <img src="foto15.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 15</div>
-    </div>
-
-    <!-- Kart 16 -->
-    <div class="card">
-        <div class="info">İsim 16</div>
-        <img src="foto16.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 16</div>
-    </div>
-
-    <!-- Kart 17 -->
-    <div class="card">
-        <div class="info">İsim 17</div>
-        <img src="foto17.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 17</div>
-    </div>
-
-    <!-- Kart 18 -->
-    <div class="card">
-        <div class="info">İsim 18</div>
-        <img src="foto18.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 18</div>
-    </div>
-
-    <!-- Kart 19 -->
-    <div class="card">
-        <div class="info">İsim 19</div>
-        <img src="foto19.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 19</div>
-    </div>
-
-    <!-- Kart 20 -->
-    <div class="card">
-        <div class="info">İsim 20</div>
-        <img src="foto20.jpg" alt="Kişi Fotoğrafı">
-        <div class="number">0500 000 00 20</div>
-    </div>
-
-</div>
 
 </body>
 </html>
